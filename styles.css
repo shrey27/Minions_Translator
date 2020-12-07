@@ -3,6 +3,12 @@ h1,h3{
     font-family: 'Lemon', cursive;
     color:rgb(202, 141, 9);
 }
+h2{
+    background-color: yellow;
+    max-width: fit-content;
+    font-family: 'Lemon', cursive;
+    color:rgb(202, 141, 9);
+}
 header{
     text-align: center;
     background-color: yellow;
@@ -11,17 +17,16 @@ header{
 }
 div{
     padding-top:20px;
-    
 }
 button{
-    color:black;
-    background-color: chartreuse;
+    color:white;
+    background-color: rgb(7, 116, 206);
     border-radius: 5px;
-    width:125px;
+    width:75vh;
     height:25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+    font-family: 'Lemon', cursive;
     margin-top: 10px;
+
 }
 .sec1{
     float:left;
