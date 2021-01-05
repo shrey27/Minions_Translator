@@ -22,12 +22,15 @@ var btnPrimary = document.getElementById("btn-primary");
 var textIn = document.getElementById("textInput");
 var textOut = document.getElementById("textOutput");
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
+
 function getServerURL(input){
     return serverURL+"?"+"text="+input;
 }
+
 function errorHandler(){
     alert("Technical fault");
 }
+
 function clickHandle(){
     var inputText = textIn.Value;
     fetch(getServerURL(inputText))
