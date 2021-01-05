@@ -39,4 +39,4 @@ function clickHandle(){
         textOut.innerText = json.contents.translated;
     }).catch(errorHandler)
 }
-btnPrimary.addEventListener("click",clickHandler);
+btnPrimary.addEventListener("click",clickHandle);
