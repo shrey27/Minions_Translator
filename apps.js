@@ -31,7 +31,7 @@ function errorHandler(){
 function clickHandle(){
     var inputText = textIn.Value;
     fetch(getServerURL(inputText))
-    .then(response => response.json)
+    .then(response => response.json())
     .then(json => {
         textOut.innerText = json.contents.translated;
     }).catch(errorHandler)
